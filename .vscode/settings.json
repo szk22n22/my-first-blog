@@ -1,0 +1,13 @@
+{
+    "python.pythonPath": "C:\\Users\\nekog\\sandbox\\python\\env1\\Scripts\\python.exe",
+    // コード整形
+    "python.formatting.provider": "autopep8",
+    "python.formatting.formatOnSave": true,
+    // lintツール
+    "python.linting.pylintEnabled": true,
+    "python.linting.pylintArgs": [
+        "--errors-only",
+        "--load-plugins",
+        "pylint_django"
+    ]
+}
